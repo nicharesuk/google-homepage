@@ -1,0 +1,19 @@
+body {
+	text-align: center;
+}
+
+#logo {
+	height: 200px;
+	margin-top: 89px;
+	padding-top: 109px
+}
+
+img {
+	height: 92px;
+	width: 272px;
+}
+
+input{
+	width: 525px;
+	height: 26px;
+}
