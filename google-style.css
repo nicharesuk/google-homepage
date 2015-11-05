@@ -1,19 +1,55 @@
-body {
+#content {
+	margin: auto;
 	text-align: center;
 }
 
 #logo {
-	height: 200px;
-	margin-top: 89px;
-	padding-top: 109px
+	height: 231px;
+	margin-top: 45px;
 }
 
 img {
+	padding-top: 112px;
 	height: 92px;
 	width: 272px;
 }
 
+form {
+	width: 571px;
+	height: 27px;
+	border: 1px solid #cdcdcd;
+	margin: 0 auto; /*This is necessary to center the form*/
+}
+
 input{
-	width: 525px;
-	height: 26px;
+	font-size: 16px, Arial, Sans-Serif;
+	color: #bbb;
+	padding:0px;
+	border: none;
+	
+}
+
+#nav{
+	text-align: right;
+	margin-right: 30px
+}
+
+#nav li {
+	display: inline;
+}
+
+#nav ul{
+	list-style: none;
+}
+
+#footer ul{
+	list-style: none;
+}
+
+#footer #left-foot li {
+	display: inline;
+}
+
+#footer #left-foot li {
+	display: inline;
 }
