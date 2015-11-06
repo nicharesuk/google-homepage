@@ -1,6 +1,11 @@
+html, body{ height: 100%; }
+body > #container { height: auto; min-height: 100%; }
+
 #content {
 	margin: auto;
 	text-align: center;
+	padding-bottom 35px;
+	height: 100%;
 }
 
 #logo {
@@ -42,14 +47,25 @@ input{
 	list-style: none;
 }
 
-#footer ul{
+#footer {
 	list-style: none;
+	bottom: 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	background: #cdcdcd;
 }
 
-#footer #left-foot li {
+#footer ul li {
 	display: inline;
 }
 
-#footer #left-foot li {
-	display: inline;
+#footer .left-foot li {
+	float: left;
+	padding-left: 30px;
+}
+
+#footer .right-foot li {
+	float: right;
+	padding-right: 30px;
 }
