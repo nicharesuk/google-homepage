@@ -1,5 +1,7 @@
-html, body{ height: 100%; }
-body > #container { height: auto; min-height: 100%; }
+body, td, a, p, .h {
+	font-family: arial, Sans-Serif;
+	font-size: small;
+}
 
 #content {
 	margin: auto;
@@ -21,22 +23,55 @@ img {
 
 form {
 	width: 571px;
-	height: 27px;
+	height: 40px;
 	border: 1px solid #cdcdcd;
 	margin: 0 auto; /*This is necessary to center the form*/
+}
+div .sbib{
+	margin: 6px 9px;
 }
 
 input{
 	font-size: 16px, Arial, Sans-Serif;
-	color: #bbb;
 	padding:0px;
 	border: none;
+	width: 525px;
+	height: 26px;
+	outline: none;
+	font-size: 16px;
 	
+}
+
+/*Button!*/
+.search-button {
+
+	cursor: default;
+	font-weight: bold;
+	height: 36px;
+	padding: 0 16px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 2px;
+	border: 1px solid #f2f2f2;
+	border-color: #f2f2f2;
+	color: #757575;
+	font-size: 13px;
+	background: #f2f2f2;
+	margin: 11px 4px;
+}
+
+.search-button:hover{
+	border-color: #000;
+}
+
+.jsb {
+	padding-top: 18px;
 }
 
 #nav{
 	text-align: right;
-	margin-right: 30px
+	margin-right: 30px;
+	font-size: 13px;
 }
 
 #nav li {
@@ -53,19 +88,27 @@ input{
 	position: absolute;
 	left: 0;
 	right: 0;
-	background: #cdcdcd;
+	background: #f2f2f2;
+	height: 40px;
 }
 
 #footer ul li {
 	display: inline;
+	color: #666;
+}
+
+#footer ul li:hover {
+	text-decoration: underline;
+	display: inline;
+	color: #666;
 }
 
 #footer .left-foot li {
 	float: left;
-	padding-left: 30px;
+	padding-left: 27px;
 }
 
 #footer .right-foot li {
 	float: right;
-	padding-right: 30px;
+	padding-right: 27px;
 }
