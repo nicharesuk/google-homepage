@@ -35,10 +35,11 @@ input{
 	font-size: 16px, Arial, Sans-Serif;
 	padding:0px;
 	border: none;
-	width: 525px;
+	width: 553px;
 	height: 26px;
 	outline: none;
 	font-size: 16px;
+	color: #bbb;
 	
 }
 
@@ -68,19 +69,68 @@ input{
 	padding-top: 18px;
 }
 
+
+/*Nav bar*/
+
 #nav{
 	text-align: right;
-	margin-right: 30px;
+	margin-right: 17px;
 	font-size: 13px;
+	font: 13px Arial, Sans-Serif;
+	margin-top: 18px;
+}
+
+#MyName {
+	opacity: .55;
+}
+
+.navlink {
+	opacity: .85;
+}
+.navlink:hover{
+	text-decoration: underline;
 }
 
 #nav li {
 	display: inline;
+	margin-right: 10px;
 }
 
 #nav ul{
 	list-style: none;
 }
+
+.apps {
+	display: inline-block;
+	vertical-align: middle;
+	background-image: url(https://raw.githubusercontent.com/jpcasey/theodinproject/master/google-homepage/img/icons.png);
+	background-size: 112px 1828px;
+	background-position: -68px -854px;
+	height: 30px;
+	width: 30px;
+}
+
+.hangouts {
+	display: inline-block;
+	vertical-align: middle;
+	background-image: url(https://raw.githubusercontent.com/jpcasey/theodinproject/master/google-homepage/img/icons.png);
+	background-size: 112px 1828px;
+	background-position: -68px -72px;
+	height: 30px;
+	width: 30px;
+}
+
+.profile {
+	border-radius: 50%;
+	display: inline-block;
+	vertical-align: middle;
+	background-image: url(c.jpg);
+	background-size: 32px 32px;
+	background-position: -66px -66px;
+	height: 30px;
+	width: 30px;
+}
+
 
 #footer {
 	list-style: none;
@@ -95,6 +145,10 @@ input{
 #footer ul li {
 	display: inline;
 	color: #666;
+	margin:0;
+}
+.left-foot ul li:first-child {
+	padding: 0;
 }
 
 #footer ul li:hover {
@@ -103,12 +157,13 @@ input{
 	color: #666;
 }
 
-#footer .left-foot li {
+
+.left-foot li {
 	float: left;
 	padding-left: 27px;
 }
 
-#footer .right-foot li {
+.right-foot li {
 	float: right;
 	padding-right: 27px;
 }
